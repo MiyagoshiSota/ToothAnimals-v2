@@ -228,7 +228,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 992862999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -299,11 +299,11 @@ Transform:
   m_GameObject: {fileID: 72776643}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &72776645
 AudioSource:
@@ -401,6 +401,46 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &109223980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109223981}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &109223981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109223980}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.533615, y: 37.137848, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 501646883}
+  - {fileID: 1580463445}
+  - {fileID: 2043292973}
+  - {fileID: 72776644}
+  - {fileID: 479397728}
+  - {fileID: 1355283229}
+  - {fileID: 1344213760}
+  - {fileID: 872394474}
+  - {fileID: 1358516468}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &134586501
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,8 +500,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u75DB\u3044\u3088\u3049\u30FC"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -547,7 +587,7 @@ GameObject:
   - component: {fileID: 227790468}
   - component: {fileID: 227790467}
   m_Layer: 5
-  m_Name: ToothDecay
+  m_Name: ToothDecayImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -869,8 +909,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u75DB\u3044\u3088\u3049\u30FC"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1158,8 +1198,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 90
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1325,11 +1365,11 @@ Transform:
   m_GameObject: {fileID: 479397727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &479397729
 AudioSource:
@@ -1572,11 +1612,11 @@ Transform:
   m_GameObject: {fileID: 501646882}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1700.8564, y: -266.5626, z: 0}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 113.31636, y: -64.63785, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &501646884
 AudioSource:
@@ -2012,7 +2052,7 @@ GameObject:
   - component: {fileID: 706008911}
   - component: {fileID: 706008910}
   m_Layer: 5
-  m_Name: PlayImg
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2356,8 +2396,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u3007\u3007\u672C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2460,23 +2500,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 72776644}
-  - {fileID: 479397728}
-  - {fileID: 1355283229}
-  - {fileID: 1344213760}
-  - {fileID: 872394474}
-  - {fileID: 1358516468}
-  - {fileID: 501646883}
   - {fileID: 706008909}
   - {fileID: 227790466}
   - {fileID: 769556056}
   - {fileID: 275326723}
   - {fileID: 624486933}
-  - {fileID: 1912874992}
-  - {fileID: 15064080}
   - {fileID: 908882649}
-  - {fileID: 1580463445}
-  - {fileID: 2043292973}
   m_Father: {fileID: 992862999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2673,11 +2702,11 @@ Transform:
   m_GameObject: {fileID: 872394473}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &872394475
 AudioSource:
@@ -2787,7 +2816,7 @@ GameObject:
   - component: {fileID: 908882651}
   - component: {fileID: 908882650}
   m_Layer: 5
-  m_Name: QuestImg
+  m_Name: QuestImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3020,6 +3049,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 412520560}
+  - {fileID: 1912874992}
+  - {fileID: 15064080}
   - {fileID: 1918395152}
   - {fileID: 824593873}
   m_Father: {fileID: 0}
@@ -3545,11 +3576,11 @@ Transform:
   m_GameObject: {fileID: 1344213759}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1344213761
 AudioSource:
@@ -3673,11 +3704,11 @@ Transform:
   m_GameObject: {fileID: 1355283228}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1355283230
 AudioSource:
@@ -3801,11 +3832,11 @@ Transform:
   m_GameObject: {fileID: 1358516467}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2025.3873, y: 50.153805, z: 235.40735}
-  m_LocalScale: {x: 9.353072, y: 9.353072, z: 9.353072}
+  m_LocalPosition: {x: 148.01413, y: -30.775568, z: 25.168976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1358516469
 AudioSource:
@@ -4368,11 +4399,11 @@ Transform:
   m_GameObject: {fileID: 1580463444}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 600, y: 339.99997, z: 0}
-  m_LocalScale: {x: 9.353073, y: 9.353073, z: 9.353073}
+  m_LocalPosition: {x: -4.3835907, y: 0.21382904, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1580463446
 AudioSource:
@@ -4692,12 +4723,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912874991}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 992862999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4764,7 +4795,7 @@ GameObject:
   - component: {fileID: 1918395154}
   - component: {fileID: 1918395153}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Pillarbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4886,8 +4917,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u306F\u3088\u78E8\u3044\u3066\u304F\u308C\uFF01"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5106,11 +5137,11 @@ Transform:
   m_GameObject: {fileID: 2043292972}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1700.8564, y: -266.5626, z: 0}
-  m_LocalScale: {x: 9.353073, y: 9.353073, z: 9.353073}
+  m_LocalPosition: {x: 113.31636, y: -64.63785, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 109223981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2043292974
 AudioSource:
@@ -5250,7 +5281,8 @@ SceneRoots:
   - {fileID: 1258753642}
   - {fileID: 1239886608}
   - {fileID: 992862999}
-  - {fileID: 782801510}
+  - {fileID: 109223981}
   - {fileID: 1664680893}
   - {fileID: 1368296509}
   - {fileID: 1643159455}
+  - {fileID: 782801510}

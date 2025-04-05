@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 416521636}
   - component: {fileID: 416521635}
   m_Layer: 0
-  m_Name: playStart
+  m_Name: BlinkingImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 706008911}
   - component: {fileID: 706008910}
   m_Layer: 5
-  m_Name: StartImg
+  m_Name: TitleImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,8 +532,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 706008909}
-  - {fileID: 1723670172}
-  - {fileID: 1305415789}
   - {fileID: 416521634}
   m_Father: {fileID: 992862999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -959,11 +957,11 @@ Transform:
   m_GameObject: {fileID: 1305415788}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1700.8564, y: -266.5626, z: 0}
-  m_LocalScale: {x: 9.353073, y: 9.353073, z: 9.353073}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 1593110419}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1305415790
 AudioSource:
@@ -1061,6 +1059,39 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1593110418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593110419}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593110419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593110418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 181.84998, y: -27.499996, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1723670172}
+  - {fileID: 1305415789}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723670171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,11 +1118,11 @@ Transform:
   m_GameObject: {fileID: 1723670171}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1700.8564, y: -266.5626, z: 0}
-  m_LocalScale: {x: 9.353073, y: 9.353073, z: 9.353073}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824593873}
+  m_Father: {fileID: 1593110419}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1723670173
 AudioSource:
@@ -1201,7 +1232,7 @@ GameObject:
   - component: {fileID: 1918395154}
   - component: {fileID: 1918395153}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Pillarbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1271,5 +1302,6 @@ SceneRoots:
   - {fileID: 1258753642}
   - {fileID: 1239886608}
   - {fileID: 992862999}
-  - {fileID: 782801510}
+  - {fileID: 1593110419}
   - {fileID: 1255428497}
+  - {fileID: 782801510}

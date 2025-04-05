@@ -149,15 +149,15 @@ RectTransform:
   m_GameObject: {fileID: 383973042}
   m_LocalRotation: {x: -0.028280392, y: -0.009628905, z: -0.21496761, w: 0.97616416}
   m_LocalPosition: {x: 0, y: 0, z: -8.4598}
-  m_LocalScale: {x: 0.44406196, y: 0.44516143, z: 1}
+  m_LocalScale: {x: 0.444062, y: 0.44516146, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1515719455}
-  m_Father: {fileID: 1995448867}
+  m_Father: {fileID: 1198536738}
   m_LocalEulerAnglesHint: {x: -3.403, y: -0.381, z: -24.827}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 425.55554, y: 272.41818}
+  m_AnchoredPosition: {x: 425.55554, y: 184.41824}
   m_SizeDelta: {x: 1000, y: 552.4834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383973044
@@ -317,15 +317,15 @@ RectTransform:
   m_GameObject: {fileID: 882838064}
   m_LocalRotation: {x: 0.020789826, y: 0.007078519, z: 0.15802959, w: 0.9871902}
   m_LocalPosition: {x: 0, y: 0, z: 3}
-  m_LocalScale: {x: 0.44406196, y: 0.44516143, z: 1}
+  m_LocalScale: {x: 0.4440619, y: 0.44516143, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1758852436}
-  m_Father: {fileID: 1995448867}
+  m_Father: {fileID: 1198536738}
   m_LocalEulerAnglesHint: {x: 2.224, y: 1.178, z: 18.212}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: 261}
+  m_AnchoredPosition: {x: -451, y: 172.99998}
   m_SizeDelta: {x: 1000, y: 552.4834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882838066
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 1198536740}
   - component: {fileID: 1198536739}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BaseImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 383973043}
+  - {fileID: 882838065}
   m_Father: {fileID: 1995448867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -592,7 +594,7 @@ GameObject:
   - component: {fileID: 1372243833}
   - component: {fileID: 1372243832}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Pillarbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -714,8 +716,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u3054\u3063\u3064\u3044\u3054\u99B3\u8D70\u3084\uFF01"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -951,8 +953,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u304A\u3044\u3057\u301C\u301C\uFF01"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
-  m_sharedMaterial: {fileID: -8718206331768631491, guid: 0bf388e4ca54f47f39efea32adc29b52, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbd42af84570fba42919c5375300514e, type: 2}
+  m_sharedMaterial: {fileID: -2025309595407453379, guid: fbd42af84570fba42919c5375300514e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1039,7 +1041,7 @@ GameObject:
   - component: {fileID: 1995448868}
   - component: {fileID: 1995448870}
   m_Layer: 5
-  m_Name: PlayImg
+  m_Name: Load
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,8 +1060,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1198536738}
-  - {fileID: 383973043}
-  - {fileID: 882838065}
   - {fileID: 2031921342}
   m_Father: {fileID: 1301268283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1132,7 +1132,7 @@ GameObject:
   - component: {fileID: 2031921343}
   - component: {fileID: 2031921345}
   m_Layer: 5
-  m_Name: PlayImgCuber
+  m_Name: CoverImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45, y: 0}
+  m_AnchoredPosition: {x: 65, y: 0}
   m_SizeDelta: {x: 2110.7832, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2031921343
